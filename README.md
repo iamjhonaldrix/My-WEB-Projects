@@ -1,4 +1,4 @@
-#🌐 WEB Projects
+# 🌐 WEB Projects
 
 This repository contains my collection of web development projects, all organized inside the WEB folder. Each project showcases my skills in HTML, CSS, JavaScript, and front-end frameworks like React or Vite.
 
