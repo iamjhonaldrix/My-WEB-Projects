@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Raine</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="hero">           
+            <div class="navi">
+                <nav> 
+                    <div class="socmed">
+                    <ul>
+                        <li><a href="https://x.com/loveshjen"><img src="images/x.png" height="45" width="47"></a></li>
+                        <li><a href="https://www.facebook.com/share/1Hmbt75jyZ/"><img src="images/fb.png" height="47" width="47"></a></li>
+                        <li><a href="https://www.instagram.com/nierbr?igsh=MTFmNzQ3Z3Y4cG9hcQ=="><img src="images/ig.png" height="49" width="50"></a></li>
+                        <li><a href="#"><img src="images/tiktok.png" height="50" width="55"></a></li>
+                        
+                    </ul>
+                    </div>
+
+                    <div class="menu">
+                        <button id="hamburger-btn" type="button">
+                            <img src="images/menu.png" height="30" width="30">
+                        </button>
+                        <ul id="menu-links" class="menu-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#aboutme">About</a></li>
+                            <li><a href="#blog">blog</a></li>
+                            <li><a href="#portfolio">Samples</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        
+            <div class="logo"><img src="images/coquette-bow.gif" alt="Gif logo" width="75" height="75"></div>
+
+            <div class="myName">
+                <h1>Raine Portfolio</h1>
+                <p>I create visual work that matters. Whether you need bold graphics or steady account management, I bring clarity and craft to every project.</p>
+            </div>
+        </div>
+
+        <div class="page2" id="aboutme">
+            <div class="aboutme1">
+                <div class="aboutme2">
+                    <h1>About Me</h1>
+                    <p>Hi, I’m Rain. I specialize in digital arts and offer account management services.<br></br>
+                    I’m passionate about creating visually appealing designs and helping manage online presence effectively. <br></br>
+                    I focus on delivering quality work and making sure every project stands out.
+                    </p>
+                </div>
+                <img src="images/me.JPG" alt="myProfile" height="400"weight="500">
+            </div>
+        </div>
+
+        <!-- page3 -->
+        <div class="page3" id="blog">
+            <div class="blog-section">
+                <div class="blog-header">
+                    <h1>Blog</h1>
+                    <p>Welcome to my blog! Here I share tips, insights, and creative projects that inspire me. Check out my latest posts below:</p>
+                </div>
+                <div class="blog-posts">
+                    <article class="blog-post">
+                        <h2>Creating Aesthetic Digital Art</h2>
+                        <p>Learn how I combine color, typography, and layout to make visually appealing digital designs. Discover tips for beginners and pros alike.</p>
+                        <a href="#">Read More →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <h2>Managing Social Media for Growth</h2>
+                        <p>Tips on how to grow a personal or business account online, manage content effectively, and engage with your audience authentically.</p>
+                        <a href="#">Read More →</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <h2>Coquette Aesthetic Inspiration</h2>
+                        <p>A dive into the coquette aesthetic, how it influences my work, and ways to integrate it into digital design projects.</p>
+                        <a href="#">Read More →</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <!-- page4 -->
+         <div class="page4" id="portfolio">
+            <div class="portfolio-section">
+                <h1>SAMPLES OF MY WORK</h1>
+                <p>Here’s a sample of my work as a Social Media Manager and Graphic Designer. Swipe through or explore my projects below:</p>
+
+                <div class="portfolio-cards">
+                    <!-- Graphic Design -->
+                    <div class="portfolio-card">
+                        <img src="images/sample.jpg" alt="Graphic Design Sample 1">
+                        <h3>Instagram Post Design</h3>
+                        <p>Bright and engaging post design for social media campaigns.</p>
+                    </div>
+
+                    <div class="portfolio-card">
+                        <img src="images/banner.avif" alt="Graphic Design Sample 2">
+                        <h3>Banner Design</h3>
+                        <p>Promotional banner design for digital campaigns and events.</p>
+                    </div>
+
+                    <!-- Social Media Management -->
+                    <div class="portfolio-card">
+                        <img src="images/content.webp" alt="SMM Sample 1">
+                        <h3>Content Calendar</h3>
+                        <p>Organized content plan for Instagram and Facebook accounts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>  &copy; <script>document.write(new Date().getFullYear());</script> raine's</footer>
+    </div>
+    
+<script>
+const hamburgerBtn = document.getElementById('hamburger-btn');
+const menuLinks = document.getElementById('menu-links');
+
+hamburgerBtn.addEventListener('click', () => {
+    menuLinks.classList.toggle('active');
+});
+</script>
+</body>
+</html>
