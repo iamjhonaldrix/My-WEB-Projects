@@ -6,5 +6,6 @@ Projects are self-contained and ready to run locally or deploy. You can explore 
 
 # Here's are link:
 https://iamjhonaldrix.github.io/My-WEB-Projects/Raine
+https://iamjhonaldrix.github.io/My-WEB-Projects/Calculator
 
 New projects will be added over time to demonstrate my growth and learning in web development.
