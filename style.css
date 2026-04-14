@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e2f, #2c2c44);
+}
+
+main {
+  width: 340px;
+  background: #1a1a25;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+h1 {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.output {
+  background: #0f0f17;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  min-height: 70px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.userInput {
+  color: white;
+  font-size: 28px;
+  word-break: break-word;
+}
+
+.buttonss {
+  display: flex;
+  gap: 10px;
+}
+
+.button-numbers {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-numbers div {
+  display: flex;
+  gap: 10px;
+}
+
+.button-numbers span {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  background: #2f2f45;
+  color: white;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: #444466;
+}
+
+/* ARITHMETIC PANEL */
+.button-arithmetic {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upper2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.last-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#equal {
+  background: #ff9f1c;
+  color: black;
+  font-weight: bold;
+}
+
+#equal:hover {
+  background: #ffb347;
+}
+
+#ce, #c {
+  background: #ff4d4d;
+}
+
+#ce:hover, #c:hover {
+  background: #ff6666;
+}
+
+.button-numbers div:last-child button:first-child {
+  flex: 2;
+}
