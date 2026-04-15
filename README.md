@@ -75,15 +75,15 @@
 
     <div class="links">
       <a href="https://myportfolio-ec1axaecd-iamjhonaldrixs-projects.vercel.app/" target="_blank">
-        [ OPEN PORTFOLIO ]
+        [ ./PORTFOLIO ]
       </a>
 
       <a href="https://iamjhonaldrix.github.io/My-WEB-Projects/Raine" target="_blank">
-        [ RUN Raine Project ]
+        [ cd Raine ]
       </a>
 
       <a href="https://iamjhonaldrix.github.io/My-WEB-Projects/Calculator" target="_blank">
-        [ EXECUTE Calculator ]
+        [ cd Calculator ]
       </a>
     </div>
   </div>
