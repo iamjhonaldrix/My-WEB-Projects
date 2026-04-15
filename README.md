@@ -54,7 +54,7 @@
   }
 
   .prompt::before {
-    content: "root@jhonaldrix:~$ ";
+    content: "b3rl1n@jhonaldrix:~$ ";
     color: #00ff9c;
   }
 
