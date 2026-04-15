@@ -1,83 +1,95 @@
 <style>
   body {
-    font-family: Arial, sans-serif;
-    background: #0f172a;
-    color: #e2e8f0;
-    line-height: 1.6;
+    margin: 0;
+    font-family: "Courier New", monospace;
+    background: #000;
+    color: #00ff9c;
   }
 
   .container {
     max-width: 800px;
-    margin: auto;
+    margin: 40px auto;
     padding: 20px;
+    border: 1px solid #00ff9c;
+    box-shadow: 0 0 20px #00ff9c33;
   }
 
   h1 {
     text-align: center;
-    color: #38bdf8;
+    color: #00ff9c;
+    text-shadow: 0 0 8px #00ff9c;
   }
 
   p {
     text-align: center;
-    margin-bottom: 20px;
+    color: #9affd6;
+  }
+
+  .terminal {
+    background: #020202;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #00ff9c55;
   }
 
   .links {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
   }
 
   .links a {
     text-decoration: none;
-    background: linear-gradient(135deg, #38bdf8, #6366f1);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    transition: 0.3s;
-    width: 250px;
-    text-align: center;
-    font-weight: bold;
+    color: #00ff9c;
+    padding: 10px;
+    border: 1px solid #00ff9c;
+    transition: 0.2s;
   }
 
   .links a:hover {
-    transform: scale(1.05);
-    background: linear-gradient(135deg, #0ea5e9, #4f46e5);
+    background: #00ff9c;
+    color: #000;
+    box-shadow: 0 0 10px #00ff9c;
+  }
+
+  .prompt::before {
+    content: "root@jhonaldrix:~$ ";
+    color: #00ff9c;
   }
 
   .footer {
     margin-top: 20px;
     text-align: center;
-    font-size: 14px;
-    color: #94a3b8;
+    font-size: 13px;
+    color: #00ff9c88;
   }
 </style>
 
 <div class="container">
-  <p>
-    This repository contains my collection of web development projects,
-    all organized inside the <strong>WEB</strong> folder.
-    Each project showcases my skills in HTML, CSS, JavaScript,
-    and front-end frameworks like React or Vite.
-  </p>
+  <h1>🌐 WEB Projects</h1>
 
-  <p>
-    Projects are self-contained and ready to run locally or deploy.
-    Explore the links below to see them in action.
-  </p>
+  <div class="terminal">
+    <p class="prompt">Initializing repository...</p>
+    <p class="prompt">Loading web projects...</p>
+    <p class="prompt">Access granted.</p>
 
-  <div class="links">
-    <a href="https://iamjhonaldrix.github.io/My-WEB-Projects/Raine" target="_blank">
-      🌧️ Raine 
-    </a>
+    <div class="links">
+      <a href="https://myportfolio-ec1axaecd-iamjhonaldrixs-projects.vercel.app/" target="_blank">
+        [ OPEN PORTFOLIO ]
+      </a>
 
-    <a href="https://iamjhonaldrix.github.io/My-WEB-Projects/Calculator" target="_blank">
-      🧮 Calculator 
-    </a>
+      <a href="https://iamjhonaldrix.github.io/My-WEB-Projects/Raine" target="_blank">
+        [ RUN Raine Project ]
+      </a>
+
+      <a href="https://iamjhonaldrix.github.io/My-WEB-Projects/Calculator" target="_blank">
+        [ EXECUTE Calculator ]
+      </a>
+    </div>
   </div>
 
   <div class="footer">
-    🚀 More projects coming soon as I continue learning and building!
+    system://status → online | more builds incoming...
   </div>
 </div>
