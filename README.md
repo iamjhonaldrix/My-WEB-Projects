@@ -71,11 +71,11 @@
 
   <div class="links">
     <a href="https://iamjhonaldrix.github.io/My-WEB-Projects/Raine" target="_blank">
-      🌧️ Raine Project
+      🌧️ Raine 
     </a>
 
     <a href="https://iamjhonaldrix.github.io/My-WEB-Projects/Calculator" target="_blank">
-      🧮 Calculator Project
+      🧮 Calculator 
     </a>
   </div>
 
