@@ -55,8 +55,6 @@
 </style>
 
 <div class="container">
-  <h1>🌐 WEB Projects</h1>
-
   <p>
     This repository contains my collection of web development projects,
     all organized inside the <strong>WEB</strong> folder.
