@@ -67,7 +67,6 @@
 </style>
 
 <div class="container">
-  <h1>🌐 WEB Projects</h1>
 
   <div class="terminal">
     <p class="prompt">Initializing repository...</p>
