@@ -74,7 +74,7 @@
     <p class="prompt">Access granted.</p>
 
     <div class="links">
-      <a href="https://myportfolio-ec1axaecd-iamjhonaldrixs-projects.vercel.app/" target="_blank">
+      <a href="[https://myportfolio-ec1axaecd-iamjhonaldrixs-projects.vercel.app/](https://www.jhonaldrixbernil.dev/)" target="_blank">
         [ ./PORTFOLIO ]
       </a>
 
